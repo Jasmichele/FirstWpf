@@ -15,7 +15,9 @@
         </Grid.Background>
         <Grid Background="White" Height="57" VerticalAlignment="Top">
             <Menu x:Name="___menutop" HorizontalAlignment="Left" Margin="10,10,0,0" Width="484" Height="37" VerticalAlignment="Top" Background="#FF8A96CD">
-                <MenuItem x:Name="topp1" Header="Cool" Click="MenuItem_Click"/>
+                <MenuItem x:Name="topp1" Header="Cool" Click="MenuItem_Click">
+                    <MenuItem Header="Friday"/>
+                </MenuItem>
                 <MenuItem x:Name="top2" Header="Not Cool" Click="MenuItem_Click"/>
                 <MenuItem x:Name="top3" Header="Dueces" Click="MenuItem_Click"/>
                 <TextBox x:Name="textBoxTop" Height="23" TextWrapping="Wrap" Text="TextBox" Width="150" TextChanged="textBoxTop_TextChanged"/>
@@ -28,8 +30,7 @@
 
         <RadioButton x:Name="radioButton1" Content="Cutie" HorizontalAlignment="Left" Margin="172,111,0,0" VerticalAlignment="Top" Cursor="Hand"/>
         <RadioButton x:Name="radioButton2" Content="Hater" HorizontalAlignment="Left" Margin="253,111,0,0" VerticalAlignment="Top" Cursor="Hand"/>
-        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="24,75,0,0" VerticalAlignment="Top" Width="100" Source="images/koala.jpg">
-        </Image>
+        <Image x:Name="image1" Height="100" Margin="24,75,0,0" VerticalAlignment="Top" Source="images/koala.jpg" HorizontalAlignment="Left" Width="100"/>
         <Slider x:Name="sliderBar" HorizontalAlignment="Left" Margin="362,123,0,0" VerticalAlignment="Top" Width="84" Height="35" ValueChanged="slider_ValueChanged"/>
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="343,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
 
